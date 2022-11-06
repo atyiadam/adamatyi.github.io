@@ -1,14 +1,19 @@
 // Navbar
 .navbar {
-  height: auto;
-  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  // height: 35px;
+  // max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  max-width: calc(720px - (30px * 2));
   max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: relative;
   margin-right: auto;
   margin-left: auto;
   // border-bottom: 1px solid $light;
-  padding: 15px 5px;
+  padding: 15px 0 15px 0;
   @extend %clearfix;
+}
+
+.pagination-count {
+  opacity: 0.3;
 }
 
 // Navigation
@@ -16,13 +21,18 @@
   user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 35px;
 
   a#mode {
     float: right;
-    left: 8px;
-    top: 6px;
+    // left: 8px;
+    // top: 6px;
     position: relative;
-    margin-right: 25px;
+    // margin-right: 25px;
+    padding-right: 15px;
     clear: both;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -112,14 +122,14 @@
     right: 0;
     z-index: 2;
     text-align: center;
-    height: 50px;
+    // height: 50px;
     background-color: $white;
     // border-bottom: 1px solid $light;
 
-    a#mode {
-      left: 10px;
-      top: 12px;
-    }
+    // a#mode {
+    //   left: 10px;
+    //   top: 12px;
+    // }
 
     .menu-icon {
       display: block;
@@ -182,7 +192,7 @@
 
 // Author
 .author {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 7.2rem;
   text-align: center;
 
@@ -199,18 +209,29 @@
     background-color: $black;
     -ms-user-select: none;
     -webkit-user-select: none;
-    -webkit-animation: 0.5s ease-in forwards fadein;
-    animation: 0.5s ease-in forwards fadein;
-    opacity: 1;
+    // -webkit-animation: 0.5s ease-in forwards fadein;
+    // animation: 0.5s ease-in forwards fadein;
+    // opacity: 1;
   }
 
   .author-name {
-    font-size: 1.7em;
-    margin-bottom: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 5px;
   }
 
   .author-bio {
     margin: 0 auto;
+    opacity: 0.9;
+    max-width: 500px;
+    line-height: 1.688;
+  }
+
+  .blog-bio {
+    margin: 0 auto;
+    margin-top: 15px;
     opacity: 0.9;
     max-width: 500px;
     line-height: 1.688;
@@ -239,14 +260,22 @@
 
 
 .home-arrow {
+  height: 35px;
+  // padding: 0px 0px;
   font-size: 30px;
-  margin-top: -57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0 15px 0;
+  margin-top: -65px;
   @include media-query($on-mobile) {
-    margin-top: -72px;
+    // margin-top: -65px;
   }
   a {
     text-decoration: none;
-    margin-left: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
   }
   a:active, a:focus {
     outline: 0;
