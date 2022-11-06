@@ -1,0 +1,45 @@
+---
+layout: default
+home: true
+---
+<script src="https://kit.fontawesome.com/265e707ab4.js" crossorigin="anonymous"></script>
+<h3 class="posts-item-note" aria-label="Recent Posts">All Posts</h3>
+{% for post in paginator.posts %}
+<article class="post-item">
+  <h2 class="post-item-title">
+    <a href="{{ post.url }}">{{ post.title | escape }}</a>
+  </h2>
+  <p>
+    {{ post.description }}
+  </p>
+  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+</article>
+{%- endfor -%}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pagination-newer" href="{{ paginator.previous_page_path | relative_url }}">&#8592; Newer Posts</a>
+  {% else %}
+    <span class="pagination-newer"></span>
+  {% endif %}
+
+  <!-- {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %} -->
+
+  <span class="pagination-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a class="pagination-older" href="{{ paginator.next_page_path | relative_url }}">Older Posts &#8594;</a>
+  {% else %}
+    <span class="pagination-older"></span>
+  {% endif %}
+</div>
+{% endif %}

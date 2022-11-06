@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2022-11-04 13:02:58 +0100
+date:   2020-08-29 09:29:20 +0700
 categories: jekyll update
+description: Learn how to define a React component that is accessible through the dot notation. A common component pattern to show a parent-child relation.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
