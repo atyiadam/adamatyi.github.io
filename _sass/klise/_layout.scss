@@ -7,7 +7,7 @@
   margin-right: auto;
   margin-left: auto;
   // border-bottom: 1px solid $light;
-  padding: $spacing-full - 15px $spacing-full;
+  padding: 15px 5px;
   @extend %clearfix;
 }
 
@@ -105,7 +105,7 @@
   }
 
   @include media-query($on-mobile) {
-    position: fixed;
+    // position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -153,7 +153,7 @@
     }
 
     input[type="checkbox"]:checked ~ .trigger {
-      position: fixed;
+      // position: fixed;
       animation: 0.2s ease-in forwards fadein;
       -webkit-animation: 0.2s ease-in forwards fadein;
       display: flex;
@@ -186,6 +186,7 @@
   text-align: center;
 
   @include media-query($on-mobile) {
+    margin-top: 2rem;
     margin-bottom: 3em;
   }
 
