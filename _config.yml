@@ -12,6 +12,8 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: ÁDÁM ATYI # author name
+  post:
+    name: Ádám Atyi
   bio: >- # tell to the world
     An engineer helping end users boosting their productivity by minimizing friction in their development experience.‍
     <br><br>
