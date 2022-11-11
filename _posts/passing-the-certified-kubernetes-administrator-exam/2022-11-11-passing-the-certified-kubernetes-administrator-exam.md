@@ -1,7 +1,7 @@
 ---
-title: Passing the Certified Kubernetes Administrator exam
+title: Passing the Certified Kubernetes Administrator Exam
 date: 2022-11-11 10:29:00 +01:00
-description: I recently passed the Certified Kubernetes Administrator program created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation. This is what I did to clear the exam on my first attempt.
+description: I recently passed the Certified Kubernetes Administrator program created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation. This is how I managed to do it on my first attempt.
 categories: kubernetes
 tag:
 - kubernetes
@@ -11,7 +11,7 @@ tag:
 
 ## What is the CKA?
 
-Earlier this year, our organization got gifted a couple of vouchers for the Certified Kubernetes Administrator program (CKA). This made me super excited, since each enrollment costs $395. CKA is considered to be the de facto standard when it comes to Kubernetes certifications. In case you are not familiar with [Kubernetes](https://kubernetes.io/) (k8s), it is a container orchestration platform, which – without all the fancy words – essentially is a place that makes running and maintaining applications for developers a lot easier. If you are planning to learn and understand how Kubernetes works and functions under the hood, the CKA is a great place to start. The program and the exam do not cover advanced features, but it contains a lot of hands on practice, which creates a great foundation for your k8s knowledge. After clearing the exam, you will have a proper tool belt to dive deep into the more exciting and also complicated capabilities of this fascinating technology.
+Earlier this year, our organization received a couple of vouchers for the Certified Kubernetes Administrator program (CKA). This made me super excited, since each enrollment costs $395. CKA is considered to be the de facto standard when it comes to Kubernetes certifications. In case you are not familiar with [Kubernetes](https://kubernetes.io/) (k8s), it is a container rchestration platform, which – without all the fancy words – essentially is a place that makes running and maintaining applications for developers a lot easier. If you are planning to learn and understand how Kubernetes works and functions under the hood, the CKA is a great place to start. The program and the exam do not cover advanced features, but it contains a lot of hands on practice, which creates a great foundation for your k8s knowledge. After clearing the exam, you will have a proper tool belt to dive deep into the more exciting and also complicated capabilities of this fascinating technology.
 
 ### Motivation
 
