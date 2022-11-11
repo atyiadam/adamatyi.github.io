@@ -1,6 +1,6 @@
 ---
 title: Passing the Certified Kubernetes Administrator exam
-date: '2022-11-11 10:29:00 +0100'
+date: 2022 11 11 10:29:00 +0100
 description: I recently passed the Certified Kubernetes Administrator program created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation. This is what I did as a preparation that helped me clear the exam on my first attempt.
 categories: kubernetes
 tag:
