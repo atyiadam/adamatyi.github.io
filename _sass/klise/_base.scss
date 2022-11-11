@@ -9,7 +9,7 @@
 
 .notransition {
   -webkit-transition: none;
-  -moz-transition: none; 
+  -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
   transition: none;
@@ -175,7 +175,7 @@ ol {
 ul,
 ol {
   margin-top: 0;
-  margin-left: $spacing-full;
+  // margin-left: $spacing-full;
 }
 
 li {
