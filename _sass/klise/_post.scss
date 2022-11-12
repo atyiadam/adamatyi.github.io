@@ -1,8 +1,8 @@
 // Post wrapper
 .wrapper.post {
   @include media-query($on-mobile) {
-    padding-left: $spacing-half;
-    padding-right: $spacing-half;
+    padding-left: $spacing-half + 5px;
+    padding-right: $spacing-half + 5px;
   }
 }
 
@@ -26,7 +26,7 @@
   }
 
   .header-title {
-    font-size: 2em;
+    font-size: 44px;
     line-height: 1.2;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -36,7 +36,7 @@
     }
 
     @include media-query($on-mobile) {
-      font-size: 1.9em;
+      font-size: 2.5rem;
     }
   }
 }
@@ -110,9 +110,15 @@
 
 
   > p {
+    font-size: 18px;
+    letter-spacing: 0.1px;
     margin: 0;
     padding-top: $spacing-full - 15;
     padding-bottom: $spacing-full - 15;
+
+    @include media-query($on-mobile) {
+      font-size: 16px;
+    }
   }
 
   ul.task-list {
@@ -166,29 +172,29 @@
   }
 
   h1 {
-    @include relative-font-size(1.5);
+    @include relative-font-size(1.95);
   }
 
   h2 {
-    @include relative-font-size(1.375);
+    @include relative-font-size(1.78);
   }
 
   h3 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.625);
     border-bottom: 1px solid $light;
     padding-bottom: 4px;
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.625);
   }
 
   h5 {
-    @include relative-font-size(1);
+    @include relative-font-size(1.3);
   }
 
   h6 {
-    @include relative-font-size(0.875);
+    @include relative-font-size(1.1375);
   }
 }
 
