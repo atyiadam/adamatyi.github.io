@@ -24,7 +24,7 @@ Mumshad did a great job putting this course together. He explains everything in 
 
 After completing every section in the course, there are three mock exams on Kode Kloud, that were created to mimic the real life exam. Although the environment is not the same, since the actual exam is on a remote desktop, the questions were somewhat similar to the ones in the real one, just a tiny bit simpler. It'll make you comfortable jumping between namespaces and contexts. When taking these tests, you should approach it the same way as you would during the actual exam. No distractions, no breaks. Do them multiple times until you can easily achieve 100%. Then do them a few more times again.
 
-## `tmux`
+## tmux
 
 You can use `tmux` to have multiple terminal sessions. I personally never used it and decided to not use it during the exam either, simply because of the lack of experience. If you don't know `tmux`, you don't have to start using it just for the CKA.
 
@@ -58,7 +58,7 @@ There's a chance that you'll have to delete pods, which might take longer than y
 
 `k delete pod test $now`
 
-# `killer.sh`
+# killer.sh
 
 When you enroll in the CKA program, you automatically get two `killer.sh` runs. It is an environment which intended to replicate the real exam as much as possible. The only major difference between them is that `killer.sh` is not using a remote desktop. Both runs contain the same questions, and you can access each environment for 36 hours. There is a 2-hour timer to give you an idea of how long it should take to go through everything, but you can work on them for the entire 36 hours. There are a lot of questions - around 25 - and they are way harder than the ones you'll face during the exam. This might scare you at first - it scared me at least - but don't get discouraged and still go through all the questions.
 
