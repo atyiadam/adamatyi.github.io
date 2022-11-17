@@ -255,6 +255,7 @@
   .socials {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     a:active, a:focus {
       outline: 0;
@@ -262,11 +263,11 @@
       -moz-outline-style: none;
     }
 
-    .twitter-mode-sunny, .linkedin-mode-sunny, .github-mode-sunny {
+    .twitter-mode-sunny, .linkedin-mode-sunny, .github-mode-sunny, .goodreads-mode-sunny {
       display: block;
       margin: 10px;
     }
-    .twitter-mode-moon, .linkedin-mode-moon, .github-mode-moon {
+    .twitter-mode-moon, .linkedin-mode-moon, .github-mode-moon, .goodreads-mode-moon {
       display: none;
       margin: 10px;
     }
