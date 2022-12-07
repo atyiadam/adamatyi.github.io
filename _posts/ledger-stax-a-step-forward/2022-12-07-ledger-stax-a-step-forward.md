@@ -1,5 +1,5 @@
 ---
-title: Ledger Stax: A step forward?
+title: "Ledger Stax: A step forward?"
 date: 2022-12-07 15:24:00 +01:00
 # modified: 2022-01-01 00:00:00 +01:00
 description: Ledger just announced its newest addition to their hardware wallet lineup called Stax. Can we consider this as an imporvement and does it provide any additional value to the crypto owners?
@@ -23,7 +23,7 @@ Here is a quick rundown of Stax's features, designed by Tony Fadell, an ex-Apple
 
 Let's compare it to Ledger's previous flagship product, the Nano X. You get a touchscreen, so you no longer have to navigate through the options via physical buttons - which can be painful at times. It also uses a technology called E Ink, which might be familiar for the eBook community. Supporting gazillion different coins and having a Bluetooth support is nothing new.
 
-But you can finally show off your NFTs to your family and friends. Which is awesome, right? Right?! 
+But you can finally show off your NFTs to your family and friends. Which is awesome, right? Right?!
 
 First of all, the majority of the NFTs are built in a way so that they can't be displayed on a static E Ink screen properly. To solve this, Ledger will provide a method to add additional metadata to your NFTs, basically creating a "copy" which can be displayed on your Stax nicely. So now you can go around with your hardware wallet and show either a copy of your NFT or a black and white version of it. My question is: if you can't show the original piece, why show it in the first place?
 
