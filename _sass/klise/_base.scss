@@ -136,13 +136,13 @@ figcaption {
 
 // List
 ul {
-  list-style: none;
+  padding-left: 15px;
+  // list-style: none;
   li {
     display: list-item;
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
     display: inline-block;
     top: -1px;
     width: 1.2em;
@@ -153,7 +153,7 @@ ul {
 }
 
 ol {
-  list-style: none;
+  // list-style: none;
   counter-reset: li;
   li {
     position: relative;
