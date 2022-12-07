@@ -1,5 +1,5 @@
 ---
-title: "Ledger Stax: A step forward?"
+title: Ledger Stax: A step forward?
 date: 2022-12-07 15:24:00 +01:00
 # modified: 2022-01-01 00:00:00 +01:00
 description: Ledger just announced its newest addition to their hardware wallet lineup called Stax. Can we consider this as an imporvement and does it provide any additional value to the crypto owners?
@@ -8,18 +8,16 @@ tags: [crypto, ledger]
 
 Ledger's newest hardware wallet called [Stax](https://shop.ledger.com/pages/ledger-stax) has been announced at the company's internal conference, Op3n.  They are claiming that "this is going to change everything" - at least for crypto. But is this actually the case? Who is the target audience of this product, and can we consider this as an improvement overall?
 
-
-![](./stax-video.mp4)
-
+![](./ledger.jpg)
 
 Here is a quick rundown of Stax's features, designed by Tony Fadell, an ex-Apple employee who played a major role in the creation of the iPod:
 
-- Bluetooth 5.2
-- E Ink touchscreen
-- Wireless charging
-- Supporting 5000+ coins
-- NFTs
-- Compatible with macOS, Windows, iOS, Android
+* Bluetooth 5.2
+* E Ink touchscreen
+* Wireless charging
+* Supporting 5000+ coins
+* NFTs
+* Compatible with macOS, Windows, iOS, Android
 
 Let's compare it to Ledger's previous flagship product, the Nano X. You get a touchscreen, so you no longer have to navigate through the options via physical buttons - which can be painful at times. It also uses a technology called E Ink, which might be familiar for the eBook community. Supporting gazillion different coins and having a Bluetooth support is nothing new.
 
