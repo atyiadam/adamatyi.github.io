@@ -136,13 +136,14 @@ figcaption {
 
 // List
 ul {
-  list-style: none;
+  font-size: 18px;
+  padding-left: 15px;
+  // list-style: none;
   li {
     display: list-item;
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
     display: inline-block;
     top: -1px;
     width: 1.2em;
@@ -150,10 +151,14 @@ ul {
     margin-left: -1.3em;
     font-weight: 700;
   }
+
+  @include media-query($on-mobile) {
+    font-size: 16px;
+  }
 }
 
 ol {
-  list-style: none;
+  // list-style: none;
   counter-reset: li;
   li {
     position: relative;
