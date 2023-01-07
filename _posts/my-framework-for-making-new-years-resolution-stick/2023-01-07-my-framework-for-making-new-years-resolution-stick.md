@@ -13,16 +13,16 @@ Despite having so many resolutions at New Year's Eve, most of them turn out to b
 - 10 greatest happenings from last year,
 - I am most proud of these (at least) three accomplishments from last year,
 - three greatest lessons I've learned from last year are,
-- three personal improvements I have made in the past year are,
+- three personal improvements I have made in the past year,
 - one word that best sums up and describes last years' experience.
 
 This part is not only good for reminding myself about the things that made me happy but will also serve as a reflection point, since ideally it will contain some of the goals I've included in the second section of this document from the previous year, which contains:
 
-- three things I'm really excited about in the next year are,
-- three personal improvements I will strive for in the next year are,
-- three things I need to do more of in the next year are,
-- three things that I need to do less of in the next year are,
-- three things I need to stop doing altogether in the next year are.
+- three things I'm really excited about in the next year,
+- three personal improvements I will strive for in the next year,
+- three things I need to do more of in the next year,
+- three things that I need to do less of in the next year,
+- three things I need to stop doing altogether in the next year.
 
 Here I'm trying not to think about a goal that is too big and has an undefined path to it. I believe that extraordinary things come from well established and productive habits. Although as much as I wish it was possible to be able to manifest a nice house, that's not how it works. But I can do my best to build habits which increase the chances of me being able to buy a nice house one day.
 
