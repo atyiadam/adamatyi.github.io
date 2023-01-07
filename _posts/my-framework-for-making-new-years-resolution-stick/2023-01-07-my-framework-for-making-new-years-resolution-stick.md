@@ -16,7 +16,7 @@ Despite having so many resolutions at New Year's Eve, most of them turn out to b
 - three personal improvements I have made in the past year are,
 - one word that best sums up and describes last years' experience.
 
-This part is not only good for reminding myself about the good things that have happened to me but will also serve as a reflection point, since ideally it will contain some of the goals I've included in the second section of this document from the previous year, which contains:
+This part is not only good for reminding myself about the things that made me happy but will also serve as a reflection point, since ideally it will contain some of the goals I've included in the second section of this document from the previous year, which contains:
 
 - three things I'm really excited about in the next year are,
 - three personal improvements I will strive for in the next year are,
